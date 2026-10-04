@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.db
+logs/
+dist/
+deploy_target/
+deployed/
+sample_models/
+test-results.xml
+.env

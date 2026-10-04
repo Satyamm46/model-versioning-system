@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Model Versioning and Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/">Model Registry</a>
+    <nav id="nav">
+      <a data-page="" href="#/">Dashboard</a>
+      <a data-page="models" href="#/models">Models</a>
+      <a data-page="deployments" href="#/deployments">Deployment history</a>
+    </nav>
+    <label class="who">Acting as
+      <input id="user" value="" placeholder="your name" maxlength="50">
+    </label>
+  </header>
+  <main id="app"><p class="muted">Loading…</p></main>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
